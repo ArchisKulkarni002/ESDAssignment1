@@ -1,5 +1,5 @@
 body {
-    background-color: #181818;
+    background-color: #181819;
     color: #f1f1f1;
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -26,6 +26,7 @@ body {
 .navbar-brand {
     font-size: 30px;
     font-family:fantasy; 
+    color: #d4af37; 
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -95,11 +96,22 @@ body {
     margin: 0;
 }
 
+.product-title {
+    padding: 25px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 .product-card-section {
     margin-top: 40px;
 }
 
 .product-card {
+    cursor: pointer;
     background-color: #2c2c2c;
     display: flex;
     padding: 15px;
@@ -110,8 +122,8 @@ body {
     width: 350px;
     height: 320px;
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.7), 
-        rgba(0, 0, 0, 0.7)
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
       ), url("images/bg.jpg");
 }
 
@@ -174,6 +186,11 @@ body {
 
 .add-to-cart-btn:hover {
     background-color: #45a049;
+}
+
+.footer-message{
+    font-size: 10px;
+    text-align: center;
 }
 
 @media (max-width: 767px) {
